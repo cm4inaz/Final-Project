@@ -1,0 +1,56 @@
+/* CSS styles for the application */
+
+/* Banner styles */
+#banner {
+    background-color: #7AE26F;
+    padding: 10px;
+    text-align: center;
+}
+
+    #banner h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    #banner p {
+        margin: 5px 0 0;
+    }
+
+/* Form styles */
+#mealPlanForm {
+    margin: 20px;
+}
+
+    #mealPlanForm h2 {
+        margin-bottom: 10px;
+    }
+
+    #mealPlanForm label {
+        display: inline-block;
+        width: 100px;
+        margin-bottom: 5px;
+    }
+
+    #mealPlanForm input[type="text"],
+    #mealPlanForm input[type="email"],
+    #mealPlanForm textarea {
+        width: 200px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #mealPlanForm button {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        #mealPlanForm button:hover {
+            background-color: #0056b3;
+        }
